@@ -365,6 +365,13 @@ section {
     margin: 0 0 10px;
     font-weight: 500;
 }
+
+.timeline-content h4{
+    font-size: 18px;
+    color: var(--main-color);
+    margin: 0 0 10px;
+}
+
 .timeline-content p{
     color: white;
     font-size: 16px;
