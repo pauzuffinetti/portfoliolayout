@@ -475,6 +475,7 @@ section {
 
 .contact form .btn:hover {
     background-color: darken(var(--main-color), 10%);
+    transition: 0.5s;
 }
 
 .footer{

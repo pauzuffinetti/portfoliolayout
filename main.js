@@ -9,7 +9,13 @@ menuIcon.addEventListener('click', () => {
 
 /*acá se cierra el menu por cada opción que toque*/
 for (let i = 0; i < menuOptions.length; i++) {
-    menuOptions[i].addEventListener('click', () => {
+    const a = menuOptions[i]
+    a.addEventListener('click', () => {
         navbar.classList.toggle('active');
+        const menuOptionsActive = document.querySelectorAll("#navbar > a.active");
+        for (let j = 0; j < menuOptionsActive.length; j++) {
+            menuOptionsActive[j].classList.remove('active');
+        }
+        a.classList.add('active');
     })
 }
