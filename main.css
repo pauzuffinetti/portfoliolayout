@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #8b49f5;
+    --main-color: #ff5fea;
 }
 
 html {
@@ -140,7 +140,7 @@ section {
 }
 
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -396,7 +396,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 1rem;
+    gap: 0.5rem;
     justify-items: center;
     align-items: center;
 }
@@ -414,17 +414,16 @@ section {
 }
 
 .proyects-info img {
-    width: 100%;
-    height: 400px;
-    display: block;
-    object-fit: contain;
-    border-radius: 1rem;
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4rem;
+    padding: 20px;
     transition: transform 0.3s ease;
 }
 
 .proyects-info img:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 25 var(--main-color);
 }
 
 .contact form {
@@ -491,6 +490,11 @@ section {
     text-align: center;
     font-size: 16px;
     color: white;
+}
+
+.footer em{
+    font-size: 14px;
+    color: var(--main-color);
 }
 
 /*responsive*/
@@ -586,7 +590,12 @@ section {
     .proyects h2{
         margin-bottom: 3rem;
     }
-    .proyects-container{
-        grid-template-columns: repeat (1, 1fr);
+    .proyectos-container{
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .proyectos-container img{
+        margin-bottom: 15px;
     }
 }

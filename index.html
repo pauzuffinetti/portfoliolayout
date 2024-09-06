@@ -36,8 +36,8 @@
 
 <section class="home" id="home">
     <div class="home-content">
-        <h1>Hi, it's <span>Paula</span></h1>    
-        <h3 class="text-animation">I'm a <span> </span></h3>
+        <h1>Hola, soy <span>Paula</span>!</h1>    
+        <h3 class="text-animation">Soy <span> </span></h3>
             <p>Con 29 años me adentré en el mundo del desarrollo web, en donde me dedico a profundizar mis habilidades y conocimientos en HTML, CSS, Javascript y React, entre otros lenguajes.</p>
             <p>Además, tengo un gran interés por el desarrollo y diseño UX/UI, por lo cual me estoy capacitando para complementar mi perfil como desarrolladora web.</p>
         
@@ -48,8 +48,7 @@
             </div>
 
         <div class="btn-group">
-            <a href="#" class="btn">Hire</a>
-            <a href="#contact" class="btn">Contact</a>
+            <a href="#contact" class="btn">Contactar</a>
         </div>
     </div>
 
@@ -116,19 +115,7 @@
     <div class="proyectos-container">
         <div class="proyects-box">
             <div class="proyects-info">
-                <a href="#" target="_blank"><img src="./assets/img/pikachu-removebg-preview.png" alt="Pokedex"></a>
-            </div>
-        </div>
-
-        <div class="proyects-box">
-            <div class="proyects-info">
-                <a href="#" target="_blank"><img src="./assets/img/pikachu-removebg-preview.png" alt="Pokedex"></a>
-            </div>
-        </div>
-
-        <div class="proyects-box">
-            <div class="proyects-info">
-                <a href="https://pokedexpz.vercel.app/" target="_blank"><img src="./assets/img/pikachu-removebg-preview.png" alt="Pokedex"></a>
+                <a href="https://pokedexpz.vercel.app/" target="_blank"><img src="./assets/img/fcd96300ed26da7b98787c839a1d0463.jpg" alt="Pokedex"></a>
             </div>
         </div>
 
@@ -138,23 +125,29 @@
             </div>
         </div>
 
+        <div class="proyects-box">
+            <div class="proyects-info">
+                <a href="https://proyectozelda.vercel.app/" target="_blank"><img src="./assets/img/header2.png" alt="The Legend of Zelda"></a>
+            </div>
+        </div>
+
     </div>
 </section>
 
 <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
 
-    <form action="">
+    <form action="" id="formulario">
         <div class="input-group">
             <div class="input-box">
-                <input type="text" placeholder="Nombre Completo" required>
-                <input type="email" placeholder="Email" required>
+                <input type="text" name="nombreCompleto" placeholder="Nombre Completo" required id="nombreCompleto">
+                <input type="email" name="email" placeholder="Email" required id="email">
             </div>
         </div>
 
         <div class="input-group-2">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            <input type="submit" value="Enviar Mensaje" class="btn">
+            <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn" id="botonContacto">
         </div>
     </form>
 </section>
@@ -163,12 +156,12 @@
 
 
 <footer class="footer">
-    <p class="copyright">
-        Paula Zuffinetti | All rights reserved.
-    </p>
+    <p class="copyright">Paula Zuffinetti | Hecho con mucho ❤️<br>
+        <em>Realizado con HTML, CSS & Javascript</em></p>
     
 </footer>
 
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
