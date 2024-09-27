@@ -382,6 +382,7 @@ section {
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track{

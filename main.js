@@ -13,12 +13,12 @@ const USER_ID = 'EkWZaY8-3-rh1EJaY';
 
 emailjs.init(USER_ID);
 
-/*este abre y cierra el iconito del menu*/
+/*abre y cierra el icono del menu*/
 menuIcon.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
 
-/*acá se cierra el menu por cada opción que toque*/
+/*se cierra el menu por cada opción que toque*/
 for (let i = 0; i < menuOptions.length; i++) {
     const a = menuOptions[i]
     a.addEventListener('click', () => {
