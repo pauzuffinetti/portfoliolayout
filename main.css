@@ -390,6 +390,7 @@ section {
 .skill {
   width: 80px;
   height: 80px;
+  margin: 20px;
 }
 
 .skill img {
