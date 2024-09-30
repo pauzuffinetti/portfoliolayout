@@ -656,6 +656,6 @@ section {
     margin-bottom: 15px;
   }
   .home-img img:hover {
-    filter: drop-shadow(0 0 2rem var(--main-color));
+    filter: drop-shadow(0 0 1rem var(--main-color));
   }
 }
