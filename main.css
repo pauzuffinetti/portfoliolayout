@@ -658,4 +658,8 @@ section {
   .home-img img:hover {
     filter: drop-shadow(0 0 1rem var(--main-color));
   }
+  .skill img:hover{
+    transform: scale(1.3);
+    filter: drop-shadow(0 0 0.4rem var(--main-color));
+}
 }
