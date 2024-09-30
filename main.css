@@ -537,6 +537,8 @@ section {
   font-style: italic;
 }
 
+
+
 /*responsive*/
 @media (max-width: 1285px) {
   html {
@@ -552,6 +554,7 @@ section {
     flex-wrap: wrap;
     gap: 2.5rem;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -651,5 +654,8 @@ section {
 
   .proyectos-container img {
     margin-bottom: 15px;
+  }
+  .home-img img:hover {
+    filter: drop-shadow(0 0 2rem var(--main-color));
   }
 }
