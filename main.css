@@ -31,7 +31,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 3rem 12% 1rem;
+  padding: 1rem 12% 1rem;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   display: flex;
@@ -235,7 +235,7 @@ section {
 @keyframes words {
   0%,
   100% {
-    content: "Frontend Developer";
+    content: "< Frontend Developer /> ;";
   }
 }
 
