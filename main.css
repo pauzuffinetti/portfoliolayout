@@ -14,6 +14,7 @@
   --second-bg-color: #131313;
   --text-color: white;
   --main-color: #ff5fea;
+  --second-main-color: #72d7ff;
 }
 
 html {
@@ -341,6 +342,25 @@ section {
   transition: 0.3s ease-in-out;
 }
 
+.experience{
+    background-color: var(--second-bg-color);
+    border: 3px solid var(--second-main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10 var(--second-main-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+
+.experience:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--second-main-color) !important;
+}
+
+.experience h4{
+    color: var(--second-main-color) !important;
+}
 .timeline-content:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color);
